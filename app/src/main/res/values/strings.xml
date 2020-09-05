@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Monaco</string>
+    <string name="navigation_drawer_open">navigation_open</string>
+    <string name="navigation_drawer_close">navigation_close</string>
+    <string name="flag">Flag Of Monaco</string>
+    <string name="details_prince">Albert II[1][2] (Albert Alexandre Louis Pierre Grimaldi; born 14 March 1958) is the reigning Prince of Monaco and head of the princely house of Grimaldi. He is the son of Prince Rainier III and Princess Grace (formerly Grace Kelly, the American actress). Prince Alberts sisters are Caroline, Princess of Hanover, and Princess Stéphanie. In July 2011, Prince Albert married Charlene Wittstock.[3] They have two children, Princess Gabriella and Prince Jacques. </string>
+    <string name="privacy_text"> ArtisanApps built the Monaco app as
+                  a Free app. This SERVICE is provided by
+                  ArtisanApps at no cost and is intended for use as
+                  is.</string>
+    <string name="details_flag">The flag of Monaco (French: drapeau de Monaco) is the national flag of the Principality of Monaco. It has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III. </string>
+</resources>

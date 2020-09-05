@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemBackground">@color/color1</item>
+
+
+    </style>
+    <style name="OverFlow" parent="AppTheme">
+        <item name="android:src">@drawable/ic_option</item>
+    </style>
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorDark</item>
+    </style>
+
+</resources>
