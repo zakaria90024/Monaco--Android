@@ -49,7 +49,7 @@ public class GalleryActivity extends AppCompatActivity implements RewardedVideoA
         setContentView(R.layout.activity_gallery);
 
         //apps pub id
-        MobileAds.initialize(GalleryActivity.this, "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(GalleryActivity.this, "ca-app-pub-3010341507881755~5432887019");
         mRewardedVideoAd  = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd .setRewardedVideoAdListener(this);
         loadRewardedVideoAd();
@@ -127,7 +127,7 @@ public class GalleryActivity extends AppCompatActivity implements RewardedVideoA
     private void loadRewardedVideoAd() {
 
         //ads unit id
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917",
+        mRewardedVideoAd.loadAd("ca-app-pub-3010341507881755/4173638059",
                 new AdRequest.Builder().build());
     }
 

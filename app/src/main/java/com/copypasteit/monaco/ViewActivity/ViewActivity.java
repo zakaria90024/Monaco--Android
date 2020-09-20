@@ -34,7 +34,7 @@ public class ViewActivity extends AppCompatActivity {
         //add below 3 lines with rewordvideo ads
         interstitialAd = new InterstitialAd(this);
         //Interstitial ads unit add
-        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        interstitialAd.setAdUnitId("ca-app-pub-3010341507881755/4748353122");
         loadInterstitialAd();
 
         //ENDSTEP - 2 Intertatial ads ====================================
@@ -115,6 +115,9 @@ public class ViewActivity extends AppCompatActivity {
     public void BackClick(View view) {
         Intent intent = new Intent(ViewActivity.this, HomeActivity.class);
         startActivity(intent);
+        if (interstitialAd.isLoaded()) {
+            interstitialAd.show();
+        }
         finish();
     }
 

@@ -76,7 +76,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         //apps pub id
-        MobileAds.initialize(HomeActivity.this, "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(HomeActivity.this, "ca-app-pub-3010341507881755~5432887019");
         mRewardedVideoAd  = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd .setRewardedVideoAdListener(this);
         loadRewardedVideoAd();
@@ -85,7 +85,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         //add below 3 lines with rewordvideo ads
         interstitialAd = new InterstitialAd(this);
         //Interstitial ads unit add
-        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        interstitialAd.setAdUnitId("ca-app-pub-3010341507881755/4748353122");
         loadInterstitialAd();
 
         //ENDSTEP - 2 Intertatial ads ====================================
@@ -150,8 +150,6 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         }
 
         // END for internet connection ==========================================================================
-
-
         //for title color
         //getSupportActionBar().setTitle(Html.fromHtml("<font color='#17BC1E' size='15px'>An</font>"));
 
@@ -472,7 +470,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     private void loadRewardedVideoAd() {
 
         //ads unit id
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917", new AdRequest.Builder().build());
+        mRewardedVideoAd.loadAd("ca-app-pub-3010341507881755/4173638059", new AdRequest.Builder().build());
     }
 
     //copy threds method onResume, onPause, onDestroy=========

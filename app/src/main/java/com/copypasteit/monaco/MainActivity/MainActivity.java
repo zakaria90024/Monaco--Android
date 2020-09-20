@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements RewardedVideoAdLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //apps pub id
-        MobileAds.initialize(MainActivity.this, "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(MainActivity.this, "ca-app-pub-3010341507881755~5432887019");
         mRewardedVideoAd  = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd .setRewardedVideoAdListener(this);
         loadRewardedVideoAd();
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements RewardedVideoAdLi
     private void loadRewardedVideoAd() {
 
         //ads unit id
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917", new AdRequest.Builder().build());
+        mRewardedVideoAd.loadAd("ca-app-pub-3010341507881755/4173638059", new AdRequest.Builder().build());
     }
 
     //copy threds method onResume, onPause, onDestroy=========

@@ -31,7 +31,7 @@ public class LocationActivity extends FragmentActivity implements OnMapReadyCall
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_location);
         //apps pub id
-        MobileAds.initialize(LocationActivity.this, "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(LocationActivity.this, "ca-app-pub-3010341507881755~5432887019");
         mRewardedVideoAd  = MobileAds.getRewardedVideoAdInstance(this);
         mRewardedVideoAd .setRewardedVideoAdListener(this);
         loadRewardedVideoAd();
@@ -113,7 +113,7 @@ public class LocationActivity extends FragmentActivity implements OnMapReadyCall
     private void loadRewardedVideoAd() {
 
         //ads unit id
-        mRewardedVideoAd.loadAd("ca-app-pub-3940256099942544/5224354917",
+        mRewardedVideoAd.loadAd("ca-app-pub-3010341507881755/4173638059",
                 new AdRequest.Builder().build());
     }
 
